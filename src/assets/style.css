@@ -1,0 +1,139 @@
+*
+{
+    font-family: 'Prompt', sans-serif;
+
+}
+.navbar-button
+{
+    background-color: transparent !important;
+    color: #dcdcdc !important;
+}
+.enroll_button
+{
+    background-color:#ff4057 !important;
+    color: #17133f !important;
+    width: 10em !important;
+    font-size: large !important;
+}
+
+.enroll_button_Inv
+{
+    background-color: #17133f !important;
+    color:#ff4057 !important ;
+    width: 10em !important;
+    font-size: large !important;
+}
+
+.enroll_button:hover,.enroll_button_Inv:hover
+{
+    background-color: transparent !important;
+    color: #dcdcdc !important;
+    border: 1px solid #dcdcdc !important;
+    transition: background-color  0.2s ease;
+}
+.navbar-button:hover
+{
+    background-color:#ff4057 !important;
+    color: #17133f !important;
+    transition: background-color  0.2s ease;
+}
+.Body_Title
+{
+    font-weight: 600 !important;
+    color: white !important;
+    background: rgb(23,19,63);
+    background: radial-gradient(circle, rgba(23,19,63,1) 7%, rgba(23,19,63,1) 39%, rgba(121,38,73,1) 75%, rgba(255,64,87,1) 100%);
+}
+
+.Body_Title_With_Inv
+{
+    background: rgb(255,64,87);
+    background: radial-gradient(circle, rgba(255,64,87,1) 0%, rgba(121,38,73,1) 50%, rgba(23,19,63,1) 87%, rgba(23,19,63,1) 100%);
+}
+
+.FAQ
+{
+    background: rgb(23,19,63);
+background: linear-gradient(90deg, rgba(23,19,63,1) 8%, rgba(93,31,65,1) 25%, rgba(201,50,68,1) 51%, rgba(213,157,164,1) 80%, rgba(220,220,220,1) 97%);
+}
+
+.questionCard
+{
+    bottom: 0;
+    transition: bottom 0.4s ease;
+    
+}
+.questionCard:hover
+{
+    bottom:1em;
+    
+}
+
+.loginButton
+{
+    background-color:#ff4057 !important;
+    color: #17133f !important;
+    width: 10em !important;
+}
+.my_body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background: rgb(23,19,63);
+    background: radial-gradient(circle, rgba(23,19,63,1) 7%, rgba(23,19,63,1) 39%, rgba(121,38,73,1) 75%, rgba(255,64,87,1) 100%);
+
+    
+}
+.loginButton:hover
+{
+    background-color: transparent !important;
+    color: #17133f !important;
+    border: 1px solid #dcdcdc !important;
+    transition: background-color  0.2s ease;
+}
+
+.startup_card
+{
+    
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.startup_card_body
+{
+    background-color: rgba(0,0,0,0.3) !important;
+    opacity: 1;
+    transition: opacity 1s ease;
+    width: 20em;
+}
+
+.startup_card:hover > .startup_card_body
+{
+    background-color:transparent !important;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.startup_card:hover
+{
+    background-size: 110%;
+    
+}
+.auth_card
+{
+    background-color: white;
+}
+
+.my_sec_body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: rgb(23,19,63);
+    background: radial-gradient(circle, rgba(23,19,63,1) 7%, rgba(23,19,63,1) 39%, rgba(121,38,73,1) 75%, rgba(255,64,87,1) 100%);
+
+    
+}
